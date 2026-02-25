@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
-type PropInterface = {}
-
-export default function Currencies (props:PropInterface) {
+export default function Currencies () {
   const currencies = [
     { name: "Bitcoin", symbol: "BTC" },
     { name: "Litecoin", symbol: "LTC" },

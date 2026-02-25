@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom";
 
-type PropInterface = {
-
-}
-
-export default function Nav (props:PropInterface) {
+export default function Nav () {
   return (
     <div className="nav">
       <Link to="/">

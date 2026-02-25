@@ -1,15 +1,13 @@
 import {useState, useEffect} from "react";
 import {useParams} from "react-router-dom"
 
-type PropInterface = {}
-
 type Coin = {
     asset_id_base: string;
     asset_id_quote: string;
     rate: number;
 }
 
-export default function Price (props:PropInterface) {
+export default function Price () {
   // Our api key from coinapi.io.
   const apiKey = "API KEY";
   // Grabbing the currency symbol from the URL Params.

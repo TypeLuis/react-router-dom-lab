@@ -1,5 +1,4 @@
-type PropInterface = {}
 
-export default function Main (props:PropInterface) {
+export default function Main () {
     return <h1>This is the Main Component</h1>;
   }
